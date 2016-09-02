@@ -3,5 +3,5 @@
 
 DECL inline void foo()
 {
-	printf( "called foo() defined in foo.h, included from %s\n", UNIT );
+	printf( "called foo() defined in foo.h, included from " UNIT "\n" );
 }

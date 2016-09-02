@@ -3,5 +3,5 @@
 
 void foo()
 {
-	printf( "called foo() defined in %s\n", UNIT );
+	printf( "called foo() defined in " UNIT "\n" );
 }
